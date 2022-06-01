@@ -1,0 +1,66 @@
+Today Agenda
+    Linked List
+    Types of Linked List
+    Demo - Partially completed
+Summary 
+Walkthrough of the Materials
+
+List :- 
+=> It is a collection of similar items.
+set is actually a type of list !
+
+Link = Connection
+Link List has 3 link type 
+
+1) Singley Linked List:-
+    => The items are connected to each other 
+    => Every item has 2 parts namely:
+        1. value
+        2. next :- 
+            here you will find the connection of the next value/pointer/address of next value / etc...
+    => The last item's pointer will be pointing towards null
+    => Linear shaped data structure. one way connection
+    => The first item is called as head.
+    => The las item is called as tail.
+    => The total number of items are called as size.
+    => Here each node is connected with just one node
+
+
+2) Doubly Links List:-
+    => Each Node will be connected with two nodes.
+    => Every item has 3 parts namely
+        1. value
+        2. next:-
+            here you will find the connection to the next value/pointer/address if next value/ etc..,
+        3. prev:- 
+            here you will find the connection to the previous value/pointer/address of next value/ etc..,
+    => The last item's next pointer will be pointing towards null and also the first item's previous pointer will be pointing towards null .
+    => Linear shaped data strucute - Two way connection.
+    => The first item is called as head.
+    => The las item is called as tail.
+    => The total number of items are called as size.
+    
+
+3) Circular Linked List
+    => The last node will be connected to the first node and hence it forms a closed loop like circle.
+    => This concept can be implemented on both singly linkes list and doubly link list 
+    => This concept can be implemented on both singley and doubley link list 
+
+Important Points
+    => Since the nodes are accessed sequentially, if the linked list is huge then it will take some time to access a node.
+    => Since the nodes are storing the address, if the linked list is huge then it will take lot of memory.
+
+
+Demo - Execute some javascript programs 
+2. approaches
+    1. Use Browser to execute JS programs
+        In chrome Browser - JS compiler - V8 Engine
+        In Microsoft Edge - chakra Engine
+        In Firefox - Spider Monkey
+    2. Use Nodejs to execute JS programs 
+        In Nodejs Server - JS compiler - Made of 8 Engine.
+
+// If you want to add file name in json then use this code:- 'npm init -y'.
+
+
+
